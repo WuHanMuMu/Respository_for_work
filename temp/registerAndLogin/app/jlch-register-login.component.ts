@@ -15,5 +15,4 @@ import { Router } from '@angular/router';
 })
 
 export class JlchRegisterLoginComponent{
-    title = 'Tour of Heroes.....';
 }

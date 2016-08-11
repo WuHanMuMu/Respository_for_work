@@ -8,6 +8,8 @@ import { provideRouter, RouterConfig }  from '@angular/router';
 import { HeroesComponent }              from './heroes.component';
 import { DashboardComponent }           from './dashboard.component';
 import { HeroDetailComponent }          from './hero-detail.component';
+import { JlchRegisterLoginComponent }   from './Jlch-register-login.component';
+import { JlchMemberComponent }          from './Jlch-member.component';
 
 
 //Angular路由器的组成,(directive;provider;routerConfig)
@@ -33,12 +35,12 @@ const routes: RouterConfig = [
         component: HeroDetailComponent
     },
     {
-        path: 'jlch-register-login',
-        component: 'JlchRegisterLoginComponent',
+        path: 'register-login',
+        component: JlchRegisterLoginComponent,
     },
     {
-        path: 'jlch-member',
-        component: 'JlchMemberComponent',
+        path: 'member',
+        component: JlchMemberComponent,
     },
 ];
 // 定义第一个路由——到 HeroesComponent 的路由

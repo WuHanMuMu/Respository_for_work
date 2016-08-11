@@ -7,6 +7,8 @@ var router_1 = require('@angular/router');
 var heroes_component_1 = require('./heroes.component');
 var dashboard_component_1 = require('./dashboard.component');
 var hero_detail_component_1 = require('./hero-detail.component');
+var Jlch_register_login_component_1 = require('./Jlch-register-login.component');
+var Jlch_member_component_1 = require('./Jlch-member.component');
 //Angular路由器的组成,(directive;provider;routerConfig)
 var routes = [
     {
@@ -30,12 +32,12 @@ var routes = [
         component: hero_detail_component_1.HeroDetailComponent
     },
     {
-        path: 'jlch-register-login',
-        component: 'JlchRegisterLoginComponent',
+        path: 'register-login',
+        component: Jlch_register_login_component_1.JlchRegisterLoginComponent,
     },
     {
-        path: 'jlch-member',
-        component: 'JlchMemberComponent',
+        path: 'member',
+        component: Jlch_member_component_1.JlchMemberComponent,
     },
 ];
 // 定义第一个路由——到 HeroesComponent 的路由

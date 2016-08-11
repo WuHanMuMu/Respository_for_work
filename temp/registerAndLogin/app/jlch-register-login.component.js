@@ -15,7 +15,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var JlchRegisterLoginComponent = (function () {
     function JlchRegisterLoginComponent() {
-        this.title = 'Tour of Heroes.....';
     }
     JlchRegisterLoginComponent = __decorate([
         core_1.Component({
@@ -28,4 +27,4 @@ var JlchRegisterLoginComponent = (function () {
     return JlchRegisterLoginComponent;
 }());
 exports.JlchRegisterLoginComponent = JlchRegisterLoginComponent;
-//# sourceMappingURL=jlch-register-login.component.js.map
+//# sourceMappingURL=Jlch-register-login.component.js.map

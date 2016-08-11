@@ -26,4 +26,4 @@ var JlchMemberComponent = (function () {
     return JlchMemberComponent;
 }());
 exports.JlchMemberComponent = JlchMemberComponent;
-//# sourceMappingURL=jlch-member.component.js.map
+//# sourceMappingURL=Jlch-member.component.js.map

@@ -23,7 +23,6 @@ export class DashboardComponent implements OnInit {
     constructor(
         private router: Router,
         private heroService: HeroService) {
-
     }
 
     /*在下面这个方法中初始化数组
