@@ -130,6 +130,7 @@ import { Hero }              from './hero';
 // import { HeroDetailComponent } from './hero-detail.component';
 import { HeroService }       from './hero.service';
 import { HeroDetailComponent } from './hero-detail.component';
+
 @Component({
     selector: 'my-heroes',
     templateUrl: 'app/heroes.component.html',
