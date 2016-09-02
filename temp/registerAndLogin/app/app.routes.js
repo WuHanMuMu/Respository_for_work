@@ -9,6 +9,7 @@ var dashboard_component_1 = require('./dashboard.component');
 var hero_detail_component_1 = require('./hero-detail.component');
 var Jlch_register_login_component_1 = require('./Jlch-register-login.component');
 var Jlch_member_component_1 = require('./Jlch-member.component');
+var text_component_1 = require('./text/text.component');
 //Angular路由器的组成,(directive;provider;routerConfig)
 var routes = [
     {
@@ -22,7 +23,7 @@ var routes = [
     },
     {
         path: '',
-        redirectTo: './heroes',
+        redirectTo: '/heroes',
         pathMatch: 'full'
     },
     {
@@ -38,6 +39,10 @@ var routes = [
     {
         path: 'member',
         component: Jlch_member_component_1.JlchMemberComponent,
+    },
+    {
+        path: 'text',
+        component: text_component_1.textComponent,
     },
 ];
 // 定义第一个路由——到 HeroesComponent 的路由

@@ -10,7 +10,7 @@ import { DashboardComponent }           from './dashboard.component';
 import { HeroDetailComponent }          from './hero-detail.component';
 import { JlchRegisterLoginComponent }   from './Jlch-register-login.component';
 import { JlchMemberComponent }          from './Jlch-member.component';
-
+import { textComponent }                from  './text/text.component';
 
 //Angular路由器的组成,(directive;provider;routerConfig)
 const routes: RouterConfig = [
@@ -25,7 +25,7 @@ const routes: RouterConfig = [
     },
     {
         path: '',
-        redirectTo: './heroes',//如果没有这个地址,就指向dashboard
+        redirectTo: '/heroes',//如果没有这个地址,就指向dashboard
         pathMatch: 'full'
     },
     {
@@ -41,6 +41,10 @@ const routes: RouterConfig = [
     {
         path: 'member',
         component: JlchMemberComponent,
+    },
+    {
+        path: 'text',
+        component: textComponent,
     },
 ];
 // 定义第一个路由——到 HeroesComponent 的路由
